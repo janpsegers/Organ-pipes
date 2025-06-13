@@ -69,9 +69,13 @@ Handle diameter : not yet implemented.
 the flow is roughly
 
 enter the parameters in a gui
+
 calculate the dimensions in the calculator class
-print the dimensions using the calculatore class
+
+print the dimensions using the calculator class
+
 transfer the dimensions to the generator class.
+
 generate the svg output using the generator class.
 
 
