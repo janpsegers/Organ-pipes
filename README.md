@@ -66,17 +66,17 @@ round tuning handle : not yet implemented
 
 Handle diameter : not yet implemented.
 
-the flow is roughly
+the program flow is roughly
 
-enter the parameters in a gui
+1) enter the parameters in a gui
 
-calculate the dimensions in the calculator class
+2) calculate the dimensions in the calculator class
 
-print the dimensions using the calculator class
+3) print the dimensions using the calculator class
 
-transfer the dimensions to the generator class.
+4) transfer the dimensions to the generator class.
 
-generate the svg output using the generator class.
+5) generate the svg output using the generator class.
 
 
 
