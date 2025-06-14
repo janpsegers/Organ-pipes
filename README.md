@@ -82,5 +82,8 @@ generate the svg output using the generator class.
 
 give it a try for a single pipe. it will calculate the pipe dimensions a generate an svg file of the different parts. 
 
+![image](https://github.com/user-attachments/assets/bc0eb312-dbde-4a97-9ea7-4813434669a5)
+
+
 
 
