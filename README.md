@@ -25,7 +25,8 @@ it shows a gui
             "Fill Canvas:",
             "No ears:",
             "Round tuning handle:",
-            "Handle dia (mm):"
+            "Handle dia (mm):",
+            "Make Parts Table Only",
         ]
 
 you can input different values that make up the parts of an organ pipe.
@@ -44,7 +45,7 @@ ising number : search the web for that.
 
 wind pressure : speaks for itself
 
-is cylindrical: whether you want sizes for a cylindrical pipe. the design for that is not implemented
+is cylindrical: whether you want sizes for a cylindrical pipe. the design for cylindrical pipes is not implemented
 
 Foot height: the amount added to the length to accomodate the block.
 
@@ -58,9 +59,9 @@ document sizes : the sizes of the created svg canvas
 
 directory path: the place where the svg will be stored.
 
-fill canvas : whether a seperate file will be made for each pipe.
+fill canvas : whether a seperate file will be made for each pipe. If checked  it puts all the pipes in one svg. it will densiliy pack the parts in different svg files  the size given in de canvas size.
 
-no ears : whether ears will be added at the sides of the mouth.
+no ears : whether ears will be added at the sides of the mouth. if no ears the labium will have the width of the pipe.
 
 round tuning handle : not yet implemented
 
@@ -78,9 +79,16 @@ the program flow is roughly
 
 5) generate the svg output using the generator class.
 
+the labium should be tappered 
 
 
-give it a try for a single pipe. it will calculate the pipe dimensions a generate an svg file of the different parts. 
+
+
+give it a try for a single pipe. it will calculate the pipe dimensions and generate an svg file of the different parts. 
+the design is such that the front and back are between the side (see picture)
+
+version 5 5 adds the possibilty to get a csv with sizes only. If you choose the parts table  the wanted parts can be checked. 
+        round tuning handle is implemented. it suggests a ball on a round stem. so you can add the diameter of the stem that will be cut in the stopper.
 
 ![image](https://github.com/user-attachments/assets/bc0eb312-dbde-4a97-9ea7-4813434669a5)
 
