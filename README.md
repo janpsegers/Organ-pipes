@@ -63,9 +63,9 @@ fill canvas : whether a seperate file will be made for each pipe. If checked  it
 
 no ears : whether ears will be added at the sides of the mouth. if no ears the labium will have the width of the pipe.
 
-round tuning handle : not yet implemented
+round tuning handle : makes a round hole in the stopper
 
-Handle diameter : not yet implemented.
+Handle diameter : diameter of the hole
 
 the program flow is roughly
 
